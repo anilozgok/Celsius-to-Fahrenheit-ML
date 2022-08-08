@@ -24,4 +24,5 @@ predictions = model.predict(X_test)
 
 comparison = pd.DataFrame({"Actual Values": y_test, "Predictions": predictions})
 
+# .head() method lists only top 5 row of the predictions
 print(comparison.head())
