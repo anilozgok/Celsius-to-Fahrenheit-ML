@@ -15,6 +15,7 @@ X_train = train.drop("Fahrenheit", axis=1)
 
 y_train = train.loc[:, "Fahrenheit"]
 
+#LineerRegression
 model.fit(X_train, y_train)
 
 X_test = test.drop("Fahrenheit", axis=1)
